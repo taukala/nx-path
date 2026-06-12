@@ -1,6 +1,6 @@
 {
   "name": "@taukala/nx-path",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "URL path matching with Next.js-style [param] syntax. Decodes percent-encoded paths, extracts params, and handles query strings and hash fragments.",
   "type": "module",
   "main": "index.js",
