@@ -1,0 +1,46 @@
+{
+  "name": "@taukala/nx-path",
+  "version": "1.0.0",
+  "description": "URL path matching with Next.js-style [param] syntax. Decodes percent-encoded paths, extracts params, and handles query strings and hash fragments.",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "checkPath.js",
+    "matchPath.js",
+    "decodePath.js"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "test": "node example/index.js"
+  },
+  "keywords": [
+    "path",
+    "url",
+    "match",
+    "matcher",
+    "route",
+    "router",
+    "pattern",
+    "params",
+    "nextjs",
+    "pathname",
+    "decode"
+  ],
+  "author": "Akhnaz <akhnaz@taukala.com.my>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.13"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
