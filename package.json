@@ -37,6 +37,14 @@
   ],
   "author": "Akhnaz <akhnaz@taukala.com.my>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taukala/nx-path.git"
+  },
+  "homepage": "https://github.com/taukala/nx-path#readme",
+  "bugs": {
+    "url": "https://github.com/taukala/nx-path/issues"
+  },
   "engines": {
     "node": ">=14.13"
   },
